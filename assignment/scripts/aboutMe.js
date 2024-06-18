@@ -68,6 +68,14 @@ console.log('allowedPets:', allowedPets);
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+var result;
+if(adventurous){
+  console.log('result:', 'Adventures are great!');
+}
+else{
+  console.log('result:', 'How about we stay home?');
+}
+
 
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -75,6 +83,13 @@ console.log('allowedPets:', allowedPets);
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = 'Try again later.';
+if(luckyNumber = 2 && adventurous){
+  console.log('diceRoll:', 'Roll the dice!');
+}
+else{
+  console.log('diceRoll:', diceRoll);
+}
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -84,6 +99,16 @@ console.log('allowedPets:', allowedPets);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+var petStatus;
+if(pets < allowedPets){
+  console.log('petStatus:', 'I can have more pets');
+}
+else if(pets = allowedPets){
+  console.log('petStatus:', 'I have enough pets');
+}
+else if(pets > allowedPets){
+  console.log('petStatus:', 'Oh no, I have too many pets!');
+}
 
 
 // STRETCH GOALS:
