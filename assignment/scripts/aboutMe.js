@@ -1,19 +1,19 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Tracy';
-console.log(firstName)
+console.log(firstName);
 
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Smith';
-console.log(lastName)
+console.log(lastName);
 
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
 let fullName = firstName + ' ' + lastName;
-console.log(fullName)
+console.log(fullName);
 
 
 
@@ -22,7 +22,7 @@ console.log(fullName)
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckyNumber = 7;
-console.log(luckyNumber)
+console.log(luckyNumber);
 
 
 
@@ -31,33 +31,44 @@ console.log(luckyNumber)
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!'
-console.log(introduction)
-
-
-
+let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!';
+console.log('introduction:', introduction);
 
 
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+let adventurous = false;
+console.log('adventurous:', adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = ['watermelon', 'chocolate', 'steak'];
+console.log('fav foods:', food);
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 1;
+console.log('pets:', pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 2;
+console.log('friendsPets:', friendsPets);
 
 // 10 - Add two pets to your `pets` variable
+console.log('added 2 pets to my pets');
+pets = pets + 2;
+console.log('pets:', pets);//add 2 to variable
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 3;
+console.log('allowedPets:', allowedPets);
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
